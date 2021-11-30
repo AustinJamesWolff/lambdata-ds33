@@ -5,5 +5,5 @@ src/Helper_Function.egg-info/PKG-INFO
 src/Helper_Function.egg-info/SOURCES.txt
 src/Helper_Function.egg-info/dependency_links.txt
 src/Helper_Function.egg-info/top_level.txt
-src/lambdata-austinwolff/__init__.py
-src/lambdata-austinwolff/helper_function.py
+src/lambdata_austinwolff/__init__.py
+src/lambdata_austinwolff/helper_function.py
