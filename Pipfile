@@ -16,6 +16,7 @@ Werkzeug = "==1.0.1"
 
 [dev-packages]
 pylint = "*"
+pytest = "*"
 
 [requires]
 python_version = "3.9"

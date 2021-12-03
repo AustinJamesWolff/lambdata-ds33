@@ -8,6 +8,8 @@ pandas = "*"
 numpy = "*"
 
 [dev-packages]
+pylint = "*"
+pytest = "*"
 
 [requires]
 python_version = "3.9"

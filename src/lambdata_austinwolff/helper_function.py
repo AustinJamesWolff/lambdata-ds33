@@ -1,9 +1,11 @@
+"""This file comes with a few functions to help you out!"""
+
 import numpy as np
 import pandas as pd
 
 def say_hello():
     print(np.array(["hello"]))
-    return None
+    return "hello"
 
 def random_phrase():
     adjectives = np.array(['blue', 'large', 'grainy', 
@@ -18,7 +20,7 @@ def random_float(min_val, max_val):
     return round(np.random.uniform(low=min_val, high=max_val), 2)
 
 def random_bowling_score():
-    return np.random.randint(0, 300)
+    return np.random.randint(0, 301)
 
 def silly_tuple():
     return (random_phrase(), random_float(1, 5), random_bowling_score())
@@ -46,6 +48,7 @@ def rem_outlier(df):
 
 
 # TESTING
+# say_hello()
 # print(random_phrase())
 # print(random_float(3.0, 13.0))
 # print(random_bowling_score())
